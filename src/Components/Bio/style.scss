@@ -1,0 +1,32 @@
+.bio-content {
+  max-width: 1180px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  //   display: flex;
+  //   flex-direction: column;
+  //   gap: 200px;
+}
+.top-bg,
+.bottom-bg {
+  position: absolute;
+  width: 100%;
+}
+.top-bg {
+  top: 0;
+}
+.bottom-bg {
+  bottom: 0;
+}
+.bio-content h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 48px;
+  margin-bottom: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.bio-content p {
+  font-size: 36px;
+  text-align: justify;
+  line-height: 55px;
+}
