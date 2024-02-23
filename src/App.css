@@ -12,6 +12,10 @@ section {
   padding: 150px 0;
   position: relative;
 }
+.black-section {
+  background-color: #252525;
+  color: #fafafa;
+}
 
 body {
   font-family: "Anonymous Pro", monospace;

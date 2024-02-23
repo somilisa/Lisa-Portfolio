@@ -4,7 +4,7 @@ import "./style.scss";
 
 function Hero() {
   return (
-    <section className="hero-container">
+    <section className="black-section">
       <div className="hero-content">
         <div className="hero-bg">
           <img src={background} alt="background svg" />

@@ -5,7 +5,7 @@ import blackBg from "../../Assets/Black-bg.svg";
 function Bio() {
   return (
     <section className="bio-container">
-      <img src={blackBg} alt="black-sqaures" className="top-bg" />
+      <img src={blackBg} alt="black-squares" className="top-bg" />
       <div className="bio-content">
         <h3 className="bio-header">Welcome to my corner of the internet!</h3>
         <p>
