@@ -1,0 +1,74 @@
+// input,
+// textarea {
+//   display: block;
+//   width: 100%;
+//   padding: 20px 15px;
+//   border-radius: 30px;
+//   border: #fafafa80 solid 3px;
+//   background-color: transparent;
+//   margin-bottom: 36px;
+//   font-size: 20px;
+//   color: #fafafa;
+//   outline: none;
+//   //   margin: 0.5em auto 1em;
+// }
+// .half {
+//   width: 45%;
+//   display: inline-block;
+// }
+// .half:first-of-type {
+//   margin-right: auto;
+// }
+.footer-content h3 {
+  text-align: center;
+}
+
+.footer-img {
+  width: 500px;
+  margin: 0 auto;
+  img {
+    object-fit: contain;
+    width: 100%;
+  }
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-name {
+  font-size: clamp(24px, calc(16px + 1vw), 36px);
+}
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+  li {
+    list-style: none;
+  }
+}
+
+.link-underline {
+  text-decoration: none;
+  color: var(--PrimaryWhite);
+  font-size: 24px;
+  transition: 0.2s all ease-in-out;
+  position: relative;
+  &:hover {
+    &:after {
+      width: 0;
+    }
+  }
+  &::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: var(--AccentGrey);
+    transition: all 250ms ease;
+  }
+}
