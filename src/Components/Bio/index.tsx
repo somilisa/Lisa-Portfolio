@@ -4,9 +4,9 @@ import blackBg from "../../Assets/Black-bg.svg";
 
 function Bio() {
   return (
-    <section className="bio-container">
+    <section>
       <img src={blackBg} alt="black-squares" className="top-bg" />
-      <div className="bio-content">
+      <div className="content bio-content">
         <h3 className="bio-header">Welcome to my corner of the internet!</h3>
         <p>
           Hi, I am Lisa Okafor. I make visually appealing functional user

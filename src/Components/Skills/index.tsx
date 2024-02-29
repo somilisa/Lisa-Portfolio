@@ -11,7 +11,7 @@ import Next from "../../Assets/icon-nextjs.svg";
 function Skills() {
   return (
     <section className="black-section">
-      <img src={whiteBg} alt="black-squares" className="top-bg" />
+      <img src={whiteBg} alt="white-squares" className="top-bg" />
       <div className="skills">
         <h3>Skills</h3>
         <ul className="skills-list">

@@ -9,34 +9,30 @@
   object-fit: contain;
 }
 .hero-content {
-  max-width: 1180px;
-  width: 80%;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 200px;
 }
-header div {
-  border-bottom: 1px solid #d7d8da;
-}
+
 h2 {
-  font-size: 64px;
+  border-bottom: 1px solid var(--Icon);
+  font-size: clamp(36px, calc(4vw + 16px), 64px);
   letter-spacing: 0em;
   margin-bottom: 60px;
 }
-header p {
+header span {
   // line-height: 96px;
-  font-size: 96px;
+  font-size: clamp(48px, calc(4vw + 28px), 96px);
   font-weight: 300;
   font-family: "Merriweather", serif;
   letter-spacing: -2px;
   margin-top: 30px;
 }
-.contact-info {
-  font-size: 36px;
-  color: #d7d8da;
-}
-.contact-info a {
-  color: #d7d8da;
-  text-decoration: none;
+.contact-name {
+  font-size: clamp(24px, calc(16px + 1vw), 36px);
+  color: var(--Icon);
+  & a {
+    color: var(--Icon);
+    text-decoration: none;
+  }
 }
