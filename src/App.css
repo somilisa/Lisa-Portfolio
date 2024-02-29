@@ -1,7 +1,13 @@
 /* .App {
   text-align: center;
 } */
-
+:root {
+  --PrimaryBlack: #252525;
+  --PrimaryWhite: #fafafa;
+  --AccentBrown: #8a000080;
+  --AccentGrey: #d9d9d9;
+  --Icon: #d7d8da;
+}
 * {
   margin: 0;
   padding: 0;
@@ -16,9 +22,17 @@ section {
   background-color: #252525;
   color: #fafafa;
 }
-
+.content {
+  max-width: 1180px;
+  width: 80%;
+  margin: 0 auto;
+}
 body {
   font-family: "Anonymous Pro", monospace;
+}
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: clamp(36px, calc(3vw + 24px), 48px);
 }
 
 @keyframes App-logo-spin {
