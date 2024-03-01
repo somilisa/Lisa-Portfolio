@@ -25,7 +25,7 @@ function Hero() {
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("Hello World!")
+                  .typeString("Front End Developer")
                   .callFunction(() => {
                     console.log("String typed out!");
                   })

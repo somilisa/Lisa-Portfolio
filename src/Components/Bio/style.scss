@@ -10,15 +10,19 @@
   bottom: 0;
 }
 .bio-content {
-  text-align: center;
   & h3 {
-    margin-bottom: 60px;
     text-align: center;
     text-transform: uppercase;
   }
   & p {
-    font-size: clamp(24px, calc(16px + 1vw), 36px);
+    font-size: clamp(18px, calc(10px + 1vw), 36px);
     text-align: justify;
-    line-height: 55px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and(max-width: 767px) {
+  .bio-content p {
+    text-align: left;
   }
 }

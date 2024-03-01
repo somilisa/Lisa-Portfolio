@@ -13,9 +13,9 @@ function Project({ numberImg, imageUrl, title, description, link }: Props) {
     <div className="project-container">
       <header>
         <img src={numberImg} alt="" />
-        <h3>Project Title: {title} </h3>
+        <h3 className="h3-margin-bottom">Project Title: {title} </h3>
       </header>
-      <div className="project-body">
+      <div className="project-main">
         <img src={imageUrl} alt="" className="project-image" />
 
         <article className="project-description">

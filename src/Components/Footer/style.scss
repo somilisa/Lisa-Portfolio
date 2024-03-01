@@ -36,9 +36,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.contact-name {
-  font-size: clamp(24px, calc(16px + 1vw), 36px);
-}
+
 .contact-links {
   display: flex;
   flex-direction: column;
@@ -52,7 +50,7 @@
 .link-underline {
   text-decoration: none;
   color: var(--PrimaryWhite);
-  font-size: 24px;
+  font-size: clamp(18px, calc(10px + 1vw), 36px);
   transition: 0.2s all ease-in-out;
   position: relative;
   &:hover {
@@ -70,5 +68,19 @@
     height: 2px;
     background-color: var(--AccentGrey);
     transition: all 250ms ease;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-img {
+    width: 300px;
+  }
+  .contact-name {
+    display: none;
+  }
+  .contact-links {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
   }
 }

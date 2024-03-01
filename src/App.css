@@ -32,7 +32,10 @@ body {
 }
 h3 {
   font-family: "Courier New", Courier, monospace;
-  font-size: clamp(36px, calc(3vw + 24px), 48px);
+  font-size: clamp(20px, calc(3vw), 48px);
+}
+.h3-margin-bottom {
+  margin-bottom: 60px;
 }
 
 @keyframes App-logo-spin {
@@ -41,5 +44,14 @@ h3 {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section {
+    padding: 85px 0;
+  }
+  .h3-margin-bottom {
+    margin-bottom: 20px;
   }
 }
