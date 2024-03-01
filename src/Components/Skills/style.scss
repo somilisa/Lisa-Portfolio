@@ -33,3 +33,11 @@
     gap: 12px;
   }
 }
+@media screen and (max-width: 320px) {
+  .skills-list {
+    grid-template-columns: 1fr;
+  }
+  .skills-list li {
+    width: 100%;
+  }
+}

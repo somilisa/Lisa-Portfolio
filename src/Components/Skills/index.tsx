@@ -10,7 +10,7 @@ import Next from "../../Assets/icon-nextjs.svg";
 
 function Skills() {
   return (
-    <section className="black-section">
+    <section className="container black-section">
       <img src={whiteBg} alt="white-squares" className="top-bg" />
       <div className="skills">
         <h3 className="h3-margin-bottom">Skills</h3>

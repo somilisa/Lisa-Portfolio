@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 
 function Hero() {
   return (
-    <section className="black-section">
+    <section className=" container black-section">
       <div className=" content hero-content">
         <div className="hero-bg">
           <img src={background} alt="background svg" />

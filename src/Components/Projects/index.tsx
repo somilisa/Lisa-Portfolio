@@ -10,7 +10,7 @@ import One from "../../Assets/01.svg";
 
 function Projects() {
   return (
-    <section>
+    <section className="container">
       <img src={blackBg} alt="black squares" className="top-bg" />
       <div className="projects-container">
         <Project
@@ -19,7 +19,8 @@ function Projects() {
           description="A crud application that provides a clean and intuitive user interface for managing daily tasks."
           imageUrl={ToDo}
           imageAlt="A to-do list web app"
-          link="https://github.com/somilisa/ToDo-App"
+          previewLink="https://somilisa.github.io/ToDo-App/"
+          deploymentLink="https://github.com/somilisa/ToDo-App"
         />
         <Project
           numberImg={One}
@@ -27,7 +28,8 @@ function Projects() {
           description="A responsive landing page for Coffetto; a coffee company built with React and Typescript "
           imageUrl={Coffetto}
           imageAlt="Coffetto Landing Page"
-          link="https://github.com/somilisa/coffee-app"
+          previewLink="https://coffee-app-mu.vercel.app/"
+          deploymentLink="https://github.com/somilisa/coffee-app"
         />
         <Project
           numberImg={One}
@@ -35,7 +37,8 @@ function Projects() {
           description="A blog built with nextJS, typescript and integrated with contentful CMS"
           imageUrl={Nexeri}
           imageAlt="Screenshot of Nexeri"
-          link="https://github.com/somilisa/nextjs-contentful-blog"
+          previewLink="https://nextjs-contentful-blog-beta.vercel.app/"
+          deploymentLink="https://github.com/somilisa/nextjs-contentful-blog"
         />
         <Project
           numberImg={One}
@@ -43,7 +46,8 @@ function Projects() {
           description="GoFoodsNG is a restaurant listing website that allows people to discover, get details about, and leave ratings or reviews on restaurants in an area of their choice."
           imageUrl={GoFoodsNG}
           imageAlt="Screenshot of GoFoodsNG"
-          link="https://github.com/somilisa/GoFoodsNG"
+          previewLink="https://go-foods-ng.vercel.app/"
+          deploymentLink="https://github.com/somilisa/GoFoodsNG"
         />
       </div>
       <img src={blackBg} alt="black squares" className="bottom-bg" />
