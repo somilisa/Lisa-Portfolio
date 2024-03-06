@@ -1,3 +1,7 @@
+#skills-section {
+  min-height: min(60vh, 900px);
+}
+
 .skills-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -35,9 +39,10 @@
 }
 @media screen and (max-width: 320px) {
   .skills-list {
-    grid-template-columns: 1fr;
+    justify-items: flex-start;
+    column-gap: 10px;
   }
   .skills-list li {
-    width: 100%;
+    width: unset;
   }
 }

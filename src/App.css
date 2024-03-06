@@ -26,6 +26,10 @@
   background-color: #252525;
   color: #fafafa;
 }
+#skills-section {
+  min-height: min(60vh, 900px);
+}
+
 .content {
   max-width: 1180px;
   width: 80%;
