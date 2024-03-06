@@ -1,6 +1,11 @@
 .project-container {
   padding: 0 10px;
-  animation: 2s lineUp ease-out;
+  opacity: 0;
+}
+
+.project-container-animation {
+  animation: 2s lineUp ease-out forwards;
+  // animation-play-state: paused;
 }
 
 .project-main {
@@ -58,6 +63,7 @@
 header {
   img {
     margin-bottom: 20px;
+    filter: drop-shadow(2px 2px 3px #888888);
   }
 }
 
