@@ -7,6 +7,9 @@ import Nexeri from "../../Assets/Nexeri(2).png";
 import GoFoodsNG from "../../Assets/GoFoodsNG(2).png";
 import blackBg from "../../Assets/Black-bg.svg";
 import One from "../../Assets/01.svg";
+import Two from "../../Assets/02.svg";
+import Three from "../../Assets/03.svg";
+import Four from "../../Assets/04.svg";
 
 function Projects() {
   return (
@@ -23,7 +26,7 @@ function Projects() {
           deploymentLink="https://github.com/somilisa/ToDo-App"
         />
         <Project
-          numberImg={One}
+          numberImg={Two}
           title="Coffetto"
           description="A responsive landing page for Coffetto; a coffee company built with React and Typescript "
           imageUrl={Coffetto}
@@ -32,7 +35,7 @@ function Projects() {
           deploymentLink="https://github.com/somilisa/coffee-app"
         />
         <Project
-          numberImg={One}
+          numberImg={Three}
           title="Nexeri"
           description="A blog built with nextJS, typescript and integrated with contentful CMS"
           imageUrl={Nexeri}
@@ -41,7 +44,7 @@ function Projects() {
           deploymentLink="https://github.com/somilisa/nextjs-contentful-blog"
         />
         <Project
-          numberImg={One}
+          numberImg={Four}
           title="GoFoodsNG"
           description="GoFoodsNG is a restaurant listing website that allows people to discover, get details about, and leave ratings or reviews on restaurants in an area of their choice."
           imageUrl={GoFoodsNG}
