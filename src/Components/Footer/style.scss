@@ -73,7 +73,7 @@
 
 @media screen and (max-width: 767px) {
   .footer-img {
-    width: 300px;
+    width: calc(min(300px, 90vw));
   }
   .contact-name {
     display: none;
