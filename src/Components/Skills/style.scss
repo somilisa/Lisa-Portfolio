@@ -28,9 +28,9 @@
 @media screen and (max-width: 767px) {
   .skills-list {
     row-gap: 28px;
-  }
-  .skills-list li {
-    gap: 12px;
+    & li {
+      gap: 12px;
+    }
   }
 }
 @media screen and (max-width: 320px) {
