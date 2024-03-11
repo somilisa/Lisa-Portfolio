@@ -4,7 +4,7 @@ import footerImg from "../../Assets/footer-img.png";
 
 function Footer() {
   return (
-    <section className="black-section">
+    <section className="container black-section">
       <div className=" content footer-content">
         <h3>let’s work together!</h3>
         <div className="footer-img">

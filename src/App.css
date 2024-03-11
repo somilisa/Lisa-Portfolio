@@ -14,14 +14,22 @@
   box-sizing: border-box;
 }
 
-section {
+.container {
   padding: 150px 0;
   position: relative;
+  min-height: min(100vh, 900px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .black-section {
   background-color: #252525;
   color: #fafafa;
 }
+#skills-section {
+  min-height: min(60vh, 900px);
+}
+
 .content {
   max-width: 1180px;
   width: 80%;
@@ -32,7 +40,10 @@ body {
 }
 h3 {
   font-family: "Courier New", Courier, monospace;
-  font-size: clamp(36px, calc(3vw + 24px), 48px);
+  font-size: clamp(20px, calc(3vw), 48px);
+}
+.h3-margin-bottom {
+  margin-bottom: 60px;
 }
 
 @keyframes App-logo-spin {
@@ -41,5 +52,14 @@ h3 {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 85px 0;
+  }
+  .h3-margin-bottom {
+    margin-bottom: 20px;
   }
 }
