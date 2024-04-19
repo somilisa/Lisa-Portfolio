@@ -17,7 +17,7 @@ function Projects() {
       <img src={blackBg} alt="black squares" className="top-bg" />
       <div className="projects-container">
         <Project
-          numberImg={One}
+          numberImg={Four}
           title="To-do App"
           description="A crud application that provides a clean and intuitive user interface for managing daily tasks."
           imageUrl={ToDo}
@@ -26,7 +26,7 @@ function Projects() {
           deploymentLink="https://github.com/somilisa/ToDo-App"
         />
         <Project
-          numberImg={Two}
+          numberImg={Three}
           title="Coffetto"
           description="A responsive landing page for Coffetto; a coffee company built with React and Typescript "
           imageUrl={Coffetto}
@@ -35,7 +35,7 @@ function Projects() {
           deploymentLink="https://github.com/somilisa/coffee-app"
         />
         <Project
-          numberImg={Three}
+          numberImg={Two}
           title="Nexeri"
           description="A blog built with nextJS, typescript and integrated with contentful CMS"
           imageUrl={Nexeri}
@@ -44,7 +44,7 @@ function Projects() {
           deploymentLink="https://github.com/somilisa/nextjs-contentful-blog"
         />
         <Project
-          numberImg={Four}
+          numberImg={One}
           title="GoFoodsNG"
           description="GoFoodsNG is a restaurant listing website that allows people to discover, get details about, and leave ratings or reviews on restaurants in an area of their choice."
           imageUrl={GoFoodsNG}
