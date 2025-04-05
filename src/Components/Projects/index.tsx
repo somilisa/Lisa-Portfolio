@@ -2,7 +2,7 @@ import React from "react";
 import "./style.scss";
 import Project from "../Project";
 import ToDo from "../../Assets/ToDo-App.png";
-import Wordle from "../Assets/Wordle.png";
+import Wordle from "../../Assets/Wordle.png";
 import Coffetto from "../../Assets/Coffetto(2).png";
 import Nexeri from "../../Assets/Nexeri(2).png";
 import GoFoodsNG from "../../Assets/GoFoodsNG(2).png";
