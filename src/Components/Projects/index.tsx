@@ -2,6 +2,7 @@ import React from "react";
 import "./style.scss";
 import Project from "../Project";
 import ToDo from "../../Assets/ToDo-App.png";
+import Wordle from "../Assets/Wordle.png";
 import Coffetto from "../../Assets/Coffetto(2).png";
 import Nexeri from "../../Assets/Nexeri(2).png";
 import GoFoodsNG from "../../Assets/GoFoodsNG(2).png";
@@ -18,12 +19,12 @@ function Projects() {
       <div className="projects-container">
         <Project
           numberImg={Four}
-          title="To-do App"
-          description="A crud application that provides a clean and intuitive user interface for managing daily tasks."
-          imageUrl={ToDo}
-          imageAlt="A to-do list web app"
-          previewLink="https://somilisa.github.io/ToDo-App/"
-          deploymentLink="https://github.com/somilisa/ToDo-App"
+          title="Wordle Clone"
+          description="A fully responsive Wordle-inspired game in React.js, featuring real-time feedback, state-managed guess tracking, and optimized game logic for a seamless user experience."
+          imageUrl={Wordle}
+          imageAlt="A wordle clone"
+          previewLink="https://wordle-clone-wheat-nine.vercel.app/"
+          deploymentLink="https://github.com/somilisa/Wordle-Clone"
         />
         <Project
           numberImg={Three}
